@@ -1,0 +1,69 @@
+# 
+### Repositórios padrão.
+deb http://http.debian.net/debian/ jessie main non-free contrib
+deb-src http://http.debian.net/debian/ jessie main non-free contrib
+
+### Atualizações de Segurança.
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+### Volatile (softwares atualizados com frequência, Clamav, etc)
+deb http://http.debian.net/debian/ jessie-updates main contrib non-free
+#deb-src http://http.debian.net/debian/ jessie-updates main contrib non-free
+
+### Backports (no momento)
+deb http://http.debian.net/debian/ jessie-backports main contrib non-free
+#deb-src http://http.debian.net/debian/ jessie-backports main contrib non-free
+
+# deb cdrom:[Debian GNU/Linux 8.7.1 _Jessie_ - Official amd64 CD Binary-1 20170116-11:01]/ jessie main
+
+#deb cdrom:[Debian GNU/Linux 8.7.1 _Jessie_ - Official amd64 CD Binary-1 20170116-11:01]/ jessie main
+
+#deb http://security.debian.org/ jessie/updates main
+#deb-src http://security.debian.org/ jessie/updates main
+
+# jessie-updates, previously known as 'volatile'
+# A network mirror was not selected during install.  The following entries
+# are provided as examples, but you should amend them as appropriate
+# for your mirror of choice.
+#
+deb http://ftp.debian.org/debian/ jessie-updates main
+deb-src http://ftp.debian.org/debian/ jessie-updates main
+deb http://ftp.debian.org/debian/ jessie main non-free contrib
+deb http://ftp.debian.org/debian/ jessie-backports main non-free contrib
+
+			
+#deb http://dl.google.com/linux/deb/ stable main
+
+
+
+### deb-multimedia.
+### Chave GPG: apt-get update && apt-get install deb-multimedia-keyring
+#deb http://www.deb-multimedia.org jessie main non-free
+#deb http://www.deb-multimedia.org jessie-backports main
+
+### Google Chrome.
+### Chave GPG: wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+deb http://dl.google.com/linux/deb/ stable main
+
+### MEGAsync (MEGA Uploader).
+### Chave GPG: wget -O - https://mega.co.nz/linux/MEGAsync/Debian_7.0/Release.key | apt-key add -
+#deb http://mega.co.nz/linux/MEGAsync/Debian_7.0/ ./
+
+### Opera Web Browser.
+### Chave GPG: wget -O - http://deb.opera.com/archive.key | apt-key add -
+#deb http://deb.opera.com/opera/ stable non-free
+
+### Oracle VM VirtualBox.
+### Chave GPG: wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | apt-key add -
+#deb http://download.virtualbox.org/virtualbox/debian/ wheezy contrib
+
+### Tor Project.
+### Chave GPG: gpg --keyserver hkp://subkeys.pgp.net --recv-keys 219EC810 && gpg --export 219EC810 | apt-key add -
+#deb http://deb.torproject.org/torproject.org wheezy main
+
+### Vivaldi Browser.
+#deb http://repo.vivaldi.com/archive/deb/ stable main
+
+deb http://packages.linuxmint.com debian import
+

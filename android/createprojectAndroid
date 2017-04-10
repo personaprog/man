@@ -1,0 +1,32 @@
+Criar pasta
+	mkdir utilsjogos
+
+Adicionando a ferramenta de build
+	gradle init
+
+Criar um projeto Android
+	android create project  \   
+        --gradle \    
+        --gradle-version 3.3.+  \   
+        --activity Main  \   
+        --package br.com.book.utils \    
+        --target android-25  \   
+        --path apputils
+
+
+android create project   
+--activity Activity_Main     
+--package br.com.book.utils     
+--target android-25     
+--path apputils
+
+
+
+	
+
+
+Criar uma nova lib 
+	android create project     --gradle     --gradle-version 3.3.+     --activity Main     --package br.com.book.pongv1     --target android-25     --path apputils
+
+
+

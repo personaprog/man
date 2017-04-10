@@ -1,0 +1,7 @@
+
+Para encontrar o a posta onde esta montado
+	sudo mount | grep /dev/sdb
+
+libera permissões 
+
+	$  dosfsck -a -t /dev/sdb

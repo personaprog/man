@@ -1,0 +1,5 @@
+sudo apt-get build-dep build-essential
+
+sudo aptitude update && sudo aptitude full-upgrade
+
+

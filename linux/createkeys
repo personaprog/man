@@ -1,0 +1,7 @@
+#apt-get update && apt-get install deb-multimedia-keyring
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+#wget -O - https://mega.co.nz/linux/MEGAsync/Debian_7.0/Release.key | apt-key add -
+#wget -O - http://deb.opera.com/archive.key | apt-key add -
+#wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | apt-key add -
+#gpg --keyserver hkp://subkeys.pgp.net --recv-keys 219EC810 && gpg --export 219EC810 | apt-key add -
+
