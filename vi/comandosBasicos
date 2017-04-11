@@ -1,0 +1,12 @@
+i -->  Modo Edição
+
+ESC --> Sair do Modo Edição
+
+dd --> Remover linha inteira
+
+/palavra --> procurar palvra
+
+:q! --> Sem Salvar e saí
+
+:wq --> Salva e Saí
+ 

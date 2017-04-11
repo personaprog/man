@@ -1,0 +1,7 @@
+persona@prog $ git add *
+
+persona@prog $ git commit -m "Descrição Atualização"
+
+persona@prog $ git remote add origin url.git
+
+persona@prog $ git push origin master
