@@ -6,7 +6,9 @@ dd --> Remover linha inteira
 
 /palavra --> procurar palvra
 
+a --> põe o cursor no fim da linha , depois do ultimo caracter 
 :q! --> Sem Salvar e saí
 
 :wq --> Salva e Saí
+
  

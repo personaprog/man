@@ -1,5 +1,6 @@
 
 # Rede Cabeada
+sudo apt-get install firmware-iwlwifi
 
 nano /etc/network/interfaces"  >> /etc/network/interfaces
 echo "auto eth0"  >> /etc/network/interfaces

@@ -1,0 +1,7 @@
+#Desativar tela de login
+
+  insserv -r kdm
+
+#Reativar tela de login
+
+  insserv krm 

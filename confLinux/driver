@@ -1,0 +1,5 @@
+lsmod - mostra os módulos carregados
+
+lspci - mostra as placas
+
+sudo apt-cache pkgnames | grep firmware

@@ -32,7 +32,7 @@ deb-src http://ftp.debian.org/debian/ jessie-updates main
 deb http://ftp.debian.org/debian/ jessie main non-free contrib
 deb http://ftp.debian.org/debian/ jessie-backports main non-free contrib
 
-			
+# Google chrome			
 #deb http://dl.google.com/linux/deb/ stable main
 
 
@@ -63,7 +63,8 @@ deb http://dl.google.com/linux/deb/ stable main
 #deb http://deb.torproject.org/torproject.org wheezy main
 
 ### Vivaldi Browser.
-#deb http://repo.vivaldi.com/archive/deb/ stable main
+#deb http://repo.vivaldi.com/archive/deb/ stable maini
 
-deb http://packages.linuxmint.com debian import
+# firefox
+#deb http://packages.linuxmint.com debian import
 
