@@ -1,7 +1,10 @@
-persona@prog $ git add *
+git add *
 
-persona@prog $ git commit -m "Descrição Atualização"
+git commit -m "Descrição Atualização"
 
-persona@prog $ git remote add origin url.git
+# Caso haja novas pastas
+git commit -am "Descrição Atualização"
 
-persona@prog $ git push origin master
+git remote add origin url.git
+
+git push origin master

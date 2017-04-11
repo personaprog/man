@@ -1,0 +1,20 @@
+mount
+##  /dev/sdc1 on /mnt/pendrive type vfat (rw,nosuid,nodev,uhelper=udisks,uid=1000,gid=1000,shortname=mixed,dmask=0077,utf8=1,showexec,flush)
+umount /mnt/pendrive
+
+mkfs.vfat /dev/sdc1
+
+
+
+
+# -n = Nome do Volume
+#    mkfs = comando responsável por formatar o sistema de aquivo
+#    vfat = formata no sistema de arquivos FAT. Outros disponíveis: mkfs.bfs, mkfs.ext2, mkfs.ext3, mkfs.ext4, mkfs.minix, mkfs.msdos, mkfs.vfat, #mkfs.xfs, mkfs.xiafs.
+#    -I = partição do pen drive
+
+
+#Montar pendrive
+
+mount -t vfat -o umask=0000 /dev/sdb1 /mnt/pendrive
+
+

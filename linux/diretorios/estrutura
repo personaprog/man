@@ -1,0 +1,38 @@
+.
+├── bin 	- Executáveis acessíveis por qualquer usuário. Uteis quando o sistema precisa ser recuperado por alguma falha.
+├
+├── boot 	- Kernel e arquivos necessários para inicialização do sistema
+├ 
+├── dev		- Arquivos que fazem a ligaçao de Sistema e Hardware.
+├
+├── etc		- Configuração do sistema operacional e redes
+├
+├── home	- Contem os arquivos e configurações do usuário
+├
+├── lib		- Modulos do Kernel, drivers de disopsitivos e libreries para inicialização do boot
+├
+├── lost+found	- Arquivos que perderam vinculo com o inode.
+├
+├── media	- Montagem mídias removiveis
+├ 
+├── mnt         - Montagem mídias removiveis ou não
+├
+├── opt         - Destinado a programas que não são dos repositórios
+├
+├── proc	- Diretório virtual, contem referências a informaçoes dinâmicas
+├
+├── root	- Dirétorio do usuário root
+├
+├── sbin	- Diretório de uso exclusivo do usuário root. Para administração e manutenção do sistema
+├ 
+├── srv 	- Contem as informações que serão servidas epla maquina
+├ 
+├── sys		- Montagem do sysfs. Repositório do kernel para que os dados permanecam atualizados
+├
+├── tmp		- Arquivos temporarios que são apagados a cada reincialização
+├     
+├── usr		- Unix shared Resources - Guardar dados que possam ser compartilhados e estáticos, sem alteracão.
+├
+└── var		- Arquivos de conteudos variáveis, como Logs.
+
+20 directories

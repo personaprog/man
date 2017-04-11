@@ -1,0 +1,4 @@
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb http://ftp.us.debian.org/debian/ jessie-updates non-free contrib
+deb http://ftp.us.debian.org/debian/ jessie-updates main non-free contrib
+
