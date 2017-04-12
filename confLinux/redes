@@ -6,7 +6,7 @@ source /etc/network/interfaces.d/*
 # The loopback network interface
 auto wlan0
 iface wlan0 inet dhcp
-wpa-ssid CHEZCILIA
-wpa-psk pacato12
+wpa-ssid NomeDaRede
+wpa-psk SenhaDaRede
 
 

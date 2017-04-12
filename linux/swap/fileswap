@@ -1,0 +1,1 @@
+dd if=/dev/zero of=/swapfile ps=1M count=500

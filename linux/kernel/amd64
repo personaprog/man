@@ -1,0 +1,13 @@
+#Com o comando:
+
+cat /proc/cpuinfo
+
+# Haverá varias informações sobre o processador. Digite o comando:
+
+cat /proc/cpuinfo | grep flag
+
+# Se encontrar 'lm' a maquina suporta o kernel de 64bits
+
+# Então digite:
+
+apr-get install linux-image-amd64 
