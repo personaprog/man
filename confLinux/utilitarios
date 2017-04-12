@@ -1,0 +1,6 @@
+# Programa apra criar atalhos 
+	sudo apt-get install alacarte
+# Para Receber  Email do sistema
+sudo apt-get install sendmail sendmail-bin bsd-mailx
+
+

@@ -1,0 +1,8 @@
+
+#pastas 755 (drwxr-xr-x):
+find /opt/lampp/htdocs -type d -exec chmod 755 {} \;
+
+#arquivos 644 (-rw-r--r--):
+
+find /opt/lampp/htdocs -type f -exec chmod 644 {} \;
+
