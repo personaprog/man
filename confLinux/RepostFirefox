@@ -1,0 +1,3 @@
+# firefox
+echo deb http://packages.linuxmint.com debian import > /etc/apt/sources.list.d/repositFirefox
+
