@@ -10,4 +10,4 @@ cat /proc/cpuinfo | grep flag
 
 # Então digite:
 
-apr-get install linux-image-amd64 
+apt-get install linux-image-amd64 
